@@ -1,0 +1,130 @@
+.header{
+    width: 100%;
+    height: 90px;
+    background: url(C:\Users\alexb\OneDrive\Escritorio\Aberturas\img\banner.png);
+    border-bottom: 1px solid rgba(255,255,255,.0);
+    background:#ffed00;
+    position: fixed;
+    z-index: 100;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a{
+    display: flex;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.logo a h1{
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 8px;
+}
+.logo a img{
+
+    width: 60px;
+    height: 50px;
+}
+.nav nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav nav a{
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 15px 10px 10px 15px;
+    /* transition: all cubic-bezier(0.075, 0.82, 0.165, 1); */
+}
+.nav nav a:hover{
+    /* border-bottom: 1px solid black; */
+    text-shadow: 0 0 1px;
+}
+@media (max-width: 1250px){
+    .nav nav a{
+        font-size: 20px;
+    }
+    .logo a h1{
+        font-size: 25px;
+    }
+    .logo a img{
+        margin-left: 15px;
+        width: 60px;
+        height: 50px;
+    }
+}
+@media (max-width: 780px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: center;
+    }
+    .nav{
+        align-items: center;
+    }
+    .nav nav a{
+        font-size: 15px;
+        margin: 0 10px 10px 10px;
+    }
+    .logo a{
+        margin-top: 10px;
+    }
+    .logo a h1{
+        font-size: 25px;
+    }
+    .logo a img{
+        width: 40px;
+        height: 35px;
+    }
+}
+
+
+
+
+
+
+
+/* .header{
+    width: 100%;
+    background: #000000;
+    position: fixed;
+    z-index: 100;
+
+}
+.nav-contenedor{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    color: #ffffff;
+    height: 50px;
+
+}
+h1{
+    color: #ffffff;
+    position: relative;
+    top: 25%;
+
+}
+.menu{
+    position: relative;
+    top: 25%;
+    height: 100%;
+}
+.menu a:hover{
+    background: #555555;
+
+} */
+
+
+

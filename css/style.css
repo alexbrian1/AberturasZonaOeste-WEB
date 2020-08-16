@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Cambay&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url(header.css);
+@import url(banner.css);
+@import url(titulos.css);
+@import url(cards.css);
+@import url(scontacto.css);
+@import url(footer.css);
+@import url(contacto.css);
+@import url(galeria.css);
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cambay', sans-serif;
+    /* background: #f0f0f0; */
+}
+.contenedor{
+    width: 1250px;
+    margin: auto;
+}
+.section{
+    text-align: center;
+    width: 100%;
+
+}
+@media (max-width: 1250px){
+    .section{
+        flex-direction: column;
+    }
+    .contenedor{
+        width: 1024px;
+
+    }
+
+}
+@media (max-width: 1024px){
+    .contenedor{
+        width: 780px;
+
+
+    }
+    .banner img{
+        overflow: hidden;
+
+    }
+
+}
+@media (max-width: 780px){
+    .contenedor{
+        width: 470px;
+
+    }
+}
+
+/* CAMBIOS ACÁ*/
+@media (max-width: 780px){
+    .contenedor{
+        width: 100%;
+
+    }
+
+}

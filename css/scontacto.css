@@ -1,0 +1,100 @@
+.section-contacto{
+    background-color: #ffed00;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.section-contacto .contenedor{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedor .titulo-contacto{
+    width: 50%;
+}
+.titulo-contacto h4{
+    color: #000000;
+    font-size: 40px;
+    
+}
+.titulo-contacto p{
+    color: #000000;
+    font-size: 20px;
+}
+/* .boton-contacto{
+    width: 50%;
+} */
+.boton-contacto a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    height: 70px;
+      width: 300px;
+      display: block;
+      color: #000000;
+      border: 5px solid black;
+      padding: 15px;
+    transition: all 300ms cubic-bezier(0.46, 0.03, 0.52, 0.96) 0s;
+
+}
+.boton-contacto a:hover{
+    background: #000000;
+}
+.boton-contacto a:hover{
+    color: #ffffff;
+}
+@media (max-width: 1024px){
+    .titulo-contacto h4{
+        font-size: 30px;
+    }
+    .titulo-contacto p{
+        font-size: 15px;
+    }
+    /* .contenedor .titulo-contacto{
+        margin-left: 30px;
+    } */
+    .boton-contacto a{
+        height: 60px;
+        width: 290px;
+        font-size: 15px;
+        margin-left: 0; 
+    }
+
+}
+
+/*  CAMBIOS ACÁ */
+@media (max-width: 768px) {
+
+    .section-contacto{
+        height: auto; /* En mobile, como hice en varios lugares, reseteo el alto fijo que dejaste, así cuando los chils de posicionan uno abajo del otro, no hay problema */
+        padding: 20px 0;
+    }
+
+    .section-contacto .contenedor{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .contenedor .titulo-contacto{
+        width: 100%;
+    }
+    .titulo-contacto h4{
+        font-size: 27px;
+    }
+    .titulo-contacto p{
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .boton-contacto a{
+        height: 60px;
+        width: 260px;
+        font-size: 15px;
+        margin-left: 0; 
+    }
+}

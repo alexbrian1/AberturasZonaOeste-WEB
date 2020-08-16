@@ -1,0 +1,149 @@
+.banner{
+	/* margin-top: 50px; */
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+	background-color: #f5f5f5;
+	background-size: cover;
+	background-position: center;
+	transition: all .1s ease-in-out;
+	background-image: url("../img/banner3.png");
+	animation: banner 50s infinite linear;
+}
+.banner img{
+	width: 100%;
+    height: 100%;
+}
+.banner .contenedor{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.4);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+.banner .contenedor h2{
+		text-shadow: 2px 2px 3px #333;
+		font-size: 29px;
+        /* display: block; */
+}
+.banner p{
+	font-size: 20px;
+	text-shadow: 2px 2px 3px #333;
+}
+.banner a{
+	text-decoration: none;
+	width: 250px;
+	display: block;
+	color: white;
+	border: 1px solid white;
+	padding: 10px;
+	margin: 10px 0 0 5px;
+	text-shadow: 2px 2px 3px #333;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+	box-shadow: 2px 2px 2px #333;
+	/* transition: all 175ms cubic-bezier(0.46, 0.03, 0.52, 0.96) 0s; */
+}
+.banner a:hover{
+	background-color: rgb(255,255,255,0.1);
+	text-shadow: none;
+	box-shadow: none;
+
+}
+@keyframes banner{
+	0%{
+		background-image: url("../img/banner3.png");
+	}
+	20%{
+		background-image: url("../img/banner3.png");
+	}
+	21%{
+		background-image: url("../img/banner4.png");
+	}
+	40%{
+		background-image: url("../img/banner4.png");
+	}
+	41%{
+		background-image: url("../img/banner5.png");
+	}
+	60%{
+		background-image: url("../img/banner5.png");
+	}
+	61%{
+		background-image: url("../img/banner7.png");
+	}
+	80%{
+		background-image: url("../img/banner7.png");
+	}
+	81%{
+		background-image: url("../img/banner3.png");
+	}
+	100%{
+		background-image: url("../img/banner3.png");
+	}
+}
+@media (max-width: 1024px){
+	.banner{
+		height: 500px;
+		overflow: hidden;
+
+}
+	.banner img{
+		margin-top: -200px;
+	}
+}
+@media (max-width: 780px){
+	.banner{
+		height: 400px;
+}
+	.banner .contenedor h2{
+		font-size: 25px;
+
+}
+	.banner p{
+		font-size: 20px;
+
+}
+	.banner a{
+		width: 200px;
+		font-size: 15px ;
+
+}
+
+}
+
+
+/* @media (max-width: 768px){
+	.banner {
+		height: 400px;
+		overflow: hidden;
+	
+	}
+	.banner img{
+		height: auto;
+		margin-top: -100px;
+	}
+	.banner p{
+		font-size: 20px;
+	}
+}
+@media (max-width: 1024px){
+	.banner img{
+		margin-top: -250px;
+	}
+	.banner h2{
+		font-size: 40px;
+	}
+	.banner p{
+		font-size: 20px;
+	}
+	} */

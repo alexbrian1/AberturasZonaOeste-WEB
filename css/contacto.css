@@ -1,0 +1,207 @@
+
+.section_titulo{
+    background-color: #f0f0f0;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.section_titulo .contenedor{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedor .titulo_contacto{
+    width: 100%;
+}
+.titulo_contacto h4{
+    color: #000000;
+    font-size: 40px;
+    
+}
+.titulo_contacto p{
+    color: #000000;
+    font-size: 20px;
+
+
+}
+.section_contacto{
+    background: #ffffff;
+    height: 700px;
+}
+.contenedor_contacto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    background: #ffffff;
+}
+.section_contacto .contenedor{
+    /* border: 1px solid black; */
+    height: 100%;
+    text-align: start;
+}
+.section_contacto .contacto{
+    background: #000000;
+    height: 100%;
+    width: 400px;
+
+}
+.contacto h5{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+.contacto .contenedor_redes h5{
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+.contacto .contenedor_redes .redes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 41px;
+    
+}
+.contacto .contenedor_redes a{
+    color: #ffffff;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    display: inline;
+
+
+}
+.contacto ul li{
+    color: #ffffff;
+    list-style: none;
+    font-size: 20px;
+    margin: 10px 0 5px 20px;
+}
+.contacto ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 5px;
+}
+.contacto ul li span{
+    font-size: 20px;
+    color: white;
+    padding-left: 5px;
+}
+.formulario{
+    height: 100%;
+    padding-top: 20px;
+}
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 500px;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}

@@ -1,0 +1,25 @@
+.subtitulo2 h4{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.subtitulo2{
+    font-size: 20px;
+}
+@media(max-width: 1024px){
+    .subtitulo2 h4{
+        font-size: 25px;
+    }
+    .subtitulo2 p{
+        font-size: 15px;
+    }
+}
+@media(max-width: 780px){
+    .subtitulo2 h4{
+        font-size: 27px;
+    }
+    .subtitulo2 p{
+        font-size: 15px;
+    }
+}
+

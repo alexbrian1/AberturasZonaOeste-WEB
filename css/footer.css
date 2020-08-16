@@ -1,0 +1,88 @@
+footer{
+  background: #000000;
+}
+footer .contenedor{
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.contenedor .margen{
+  margin: 20px;
+}
+.solicitatupresupuesto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.solicitatupresupuesto h2{
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+
+}
+.solicitatupresupuesto a{
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+	width: 250px;
+	display: block;
+	color: #ffffff;
+	border: 2px solid white;
+	padding: 10px;
+	margin: 10px;
+  border-radius: 5px;
+  transition: all 300ms cubic-bezier(0.46, 0.03, 0.52, 0.96) 0s;
+}
+.solicitatupresupuesto a:hover{
+  background-color: #ffed00;
+  color: #000000;
+  border: 2px solid black;
+}
+footer .contenedor .redes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .contenedor .redes h4{
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+footer .contenedor .redes a{
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  margin: 10px;
+
+}
+.direcciones ul li{
+  color: #ffffff;
+  list-style: none;
+  font-size: 20px;
+  margin: 5px;
+}
+.direcciones ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+
+}
+
+/* CAMBIOS ACÁ  */
+@media (max-width: 768px) {
+  footer .contenedor{
+    height: auto; /* Fijate como reseteo el height acá, para que cuando es "column" el alto se adapte */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 361px){
+  footer .contenedor .redes h4{
+    font-size: 17px;
+  }
+}
