@@ -106,7 +106,7 @@
 #fs-frm optgroup,
 #fs-frm label,
 #fs-frm #card-element:disabled {
-  font-family: inherit;
+  font-family: 'Cambay', sans-serif;
   font-size: 100%;
   color: inherit;
   border: none;
@@ -154,12 +154,13 @@
 #fs-frm [type="button"],
 #fs-frm [type="submit"],
 #fs-frm [type="reset"] {
-  width: auto;
   cursor: pointer;
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
+  text-transform: uppercase;
 }
+
 #fs-frm [type="button"]:focus,
 #fs-frm [type="submit"]:focus,
 #fs-frm [type="reset"]:focus {
@@ -204,4 +205,45 @@
 #fs-frm fieldset.locale input[name="city"],
 #fs-frm fieldset.locale select[name="state"] {
   margin-right: 3%;
+}
+@media (max-width: 900px){
+  .contenedor_contacto{
+    flex-direction: column-reverse;
+
+    }
+    .section_contacto{
+      height: auto;
+    }
+    .section_contacto .contacto{
+      width: 100%;
+    }
+    .formulario{
+      margin-bottom: 25px;
+    }
+}
+@media (max-width: 500px){
+  #fs-frm input,
+  #fs-frm select,
+  #fs-frm textarea,
+  #fs-frm fieldset,
+  #fs-frm optgroup,
+  #fs-frm label,
+  #fs-frm #card-element:disabled{
+    width: 400px;
+  }  
+  .banner .contenedor p{
+    text-align: center;
+  }
+}
+@media (max-width: 400px){
+  #fs-frm input,
+  #fs-frm select,
+  #fs-frm textarea,
+  #fs-frm fieldset,
+  #fs-frm optgroup,
+  #fs-frm label,
+  #fs-frm #card-element:disabled{
+    width: 300px;
+  }
+
 }

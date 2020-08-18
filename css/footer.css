@@ -70,6 +70,14 @@ footer .contenedor .redes a{
   padding: 10px;
 
 }
+footer p{
+  color: #ffffff;
+  text-align: center;
+}
+footer p a{
+  text-decoration: none;
+  color: #ffffff;
+}
 
 /* CAMBIOS ACÁ  */
 @media (max-width: 768px) {
