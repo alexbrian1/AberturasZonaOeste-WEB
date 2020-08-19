@@ -74,7 +74,7 @@ footer p{
   color: #ffffff;
   text-align: center;
 }
-footer p a{
+footer .contenedor p a{
   text-decoration: none;
   color: #ffffff;
 }

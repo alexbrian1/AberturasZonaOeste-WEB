@@ -4,6 +4,7 @@
     background: url(C:\Users\alexb\OneDrive\Escritorio\Aberturas\img\banner.png);
     border-bottom: 1px solid rgba(255,255,255,.0);
     background:#ffed00;
+    top: 0;
     position: fixed;
     z-index: 100;
 
